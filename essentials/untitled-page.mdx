@@ -4,47 +4,119 @@ title: "aihubmix-introduction.mdx  "
 
 ```text
 ---
-title: AiHubMix - 企业级 AI 模型 API 中转服务
-description: AiHubMix 提供专业 AI 模型 API 中转服务，支持 OpenAI、Claude、Gemini、DeepSeek、Qwen 等。官方 Azure 代理 + 双端点路由，企业级稳定合规。
+title: AiHubMix - 企业级 AI 模型 API 中转服务 | OpenAI + Azure 双端点官方代理
+description: AiHubMix 提供专业 AI 模型 API 中转服务，支持 OpenAI、Claude、Gemini、DeepSeek、Qwen 等主流大模型。官方 Azure 代理 + 双端点智能路由，企业级稳定合规，按量付费，3 分钟接入。
 mode: custom
 ---
-# AiHubMix - 企业级 AI 模型 API 中转服务
 
-欢迎使用 **AiHubMix** —— 专业的 **AI 模型 API 中转服务**！
+<div className="max-w-5xl mx-auto px-6 py-16">
 
-我们基于标准的 OpenAI API 格式，支持 OpenAI 官方所有模型，以及 Claude、Gemini、DeepSeek、阿里 Qwen 等主流大模型。只需修改模型名称，就能轻松切换，无需改代码。
+{/* Hero Section */}
+<div className="text-center mb-20">
+  <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
+    AiHubMix
+  </h1>
+  <p className="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">
+    企业级 AI 模型 API 中转服务
+  </p>
+  <p className="max-w-3xl mx-auto text-xl text-gray-600 mb-10">
+    基于统一 OpenAI API 标准，一键切换 OpenAI、Claude、Gemini、DeepSeek、Qwen 等主流大模型。<br />
+    官方 Azure 代理 + 双端点智能路由，更稳定、更合规、更省心。
+  </p>
 
-## 公司背景与保障
+  <a 
+    href="https://aihubmix.com" 
+    className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xl px-12 py-5 rounded-2xl transition-all shadow-lg hover:shadow-xl"
+  >
+    立即开始使用 → 3 分钟接入
+  </a>
+</div>
 
-- **主体公司**：AiHubMix, LLC（美国）
-- **官方授权**：微软 Azure、AWS、GCP 官方合作伙伴
-- **服务保障**：已为多家知名应用提供稳定生产环境服务
+{/* 核心优势 - 卡片形式 */}
+<div className="grid md:grid-cols-3 gap-8 mb-20">
+  <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow">
+    <div className="text-4xl mb-4">🛡️</div>
+    <h3 className="text-2xl font-semibold mb-3">官方合规保障</h3>
+    <p className="text-gray-600">美国 AiHubMix, LLC + 微软 Azure、AWS、GCP 官方授权代理，额度正规透明。</p>
+  </div>
+  
+  <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow">
+    <div className="text-4xl mb-4">⚡</div>
+    <h3 className="text-2xl font-semibold mb-3">双端点智能路由</h3>
+    <p className="text-gray-600">OpenAI 官方 + Azure OpenAI 同时接入，智能路由 + Azure 自动内容审核，兼顾速度与安全。</p>
+  </div>
+  
+  <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow">
+    <div className="text-4xl mb-4">📈</div>
+    <h3 className="text-2xl font-semibold mb-3">生产级稳定</h3>
+    <p className="text-gray-600">高并发支持，已服务多家知名应用在生产环境中长期稳定运行。</p>
+  </div>
+</div>
 
-## 独家优势：OpenAI + Azure 双端点
+{/* 产品介绍 */}
+<h2 className="text-4xl font-bold text-center mb-12">为什么开发者与企业选择 AiHubMix？</h2>
 
-AiHubMix 会同时连接 OpenAI 官方和微软 Azure OpenAI，并智能把部分请求路由到 Azure 进行自动内容审核。
+<div className="prose prose-lg max-w-none text-gray-700">
+  <p>
+    AiHubMix 是专业的 <strong>AI 模型 API 中转服务</strong>，完全兼容 OpenAI API 标准。支持 OpenAI 官方全系列模型，以及 Claude、Gemini、DeepSeek、阿里 Qwen（通义千问）等主流大模型。
+  </p>
+  <p>
+    只需修改 <code>model</code> 参数，即可无缝切换不同大模型，无需更改任何代码。
+  </p>
+</div>
 
-**好处**：
-- 安全性更高（Azure 有自动过滤）
-- 更合规：请不要请求暴力、政治、色情等敏感内容
-- 稳定性更好
+{/* 独家技术优势 */}
+<h2 className="text-3xl font-bold mt-20 mb-8">独家 OpenAI + Azure 双端点技术</h2>
+<p className="text-lg text-gray-600 mb-10">
+  AiHubMix 同时连接 OpenAI 官方端点与微软 Azure OpenAI，并智能路由部分请求至 Azure 进行自动内容审核。
+</p>
 
-## 快速上手（3 分钟完成）
+<ul className="list-disc pl-6 space-y-4 text-lg text-gray-700">
+  <li><strong>安全性更高</strong>：Azure 原生自动内容过滤机制</li>
+  <li><strong>合规更专业</strong>：避免敏感内容请求，我们会主动联系核实</li>
+  <li><strong>稳定性更好</strong>：双端点负载均衡，高并发场景下表现优异</li>
+</ul>
 
-1. **充值**：进入充值页面，充一点余额（用多少充多少）
-2. **创建 API Key**：去 API Keys 页面，一键创建并复制你的 Key（以 `sk-` 开头）
-3. **替换地址**：
-   - 稳定地址：`https://aihubmix.com`
-   - 备用地址：`https://api.aihubmix.com`
+{/* 快速上手 */}
+<h2 className="text-3xl font-bold mt-20 mb-10">快速上手（仅需 3 分钟）</h2>
 
-**小提示**：开发者把 `https://api.openai.com` 换成上面地址即可。支持 Lobe-chat、Cursor、LangChain 等工具。
+<div className="grid md:grid-cols-3 gap-8">
+  <div className="bg-white border border-gray-100 rounded-3xl p-8">
+    <div className="w-10 h-10 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl font-bold mb-6">1</div>
+    <h4 className="font-semibold text-xl mb-3">充值余额</h4>
+    <p className="text-gray-600">进入充值页面，支持便捷支付，用多少充多少（纯按量计费，无包月压力）</p>
+  </div>
 
-## 为什么选择 AiHubMix？
+  <div className="bg-white border border-gray-100 rounded-3xl p-8">
+    <div className="w-10 h-10 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl font-bold mb-6">2</div>
+    <h4 className="font-semibold text-xl mb-3">创建 API Key</h4>
+    <p className="text-gray-600">在 API Keys 页面一键生成，复制以 <code>sk-</code> 开头的 Key</p>
+  </div>
 
-AiHubMix 在**合规、安全、稳定**上比普通中转服务更有优势，特别适合企业长期使用。
+  <div className="bg-white border border-gray-100 rounded-3xl p-8">
+    <div className="w-10 h-10 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl font-bold mb-6">3</div>
+    <h4 className="font-semibold text-xl mb-3">替换地址</h4>
+    <p className="text-gray-600">稳定地址：<code>https://aihubmix.com</code><br />备用地址：<code>https://api.aihubmix.com</code></p>
+  </div>
+</div>
 
-**立即行动**  
-点击下方按钮开始使用：
+<p className="mt-10 text-center text-gray-600">
+  开发者只需将 OpenAI 官方地址 <code>https://api.openai.com</code> 替换为上方地址即可。<br />
+  完美兼容 Lobe-chat、Cursor、ChatGPT Next Web、LangChain、LlamaIndex 等主流工具。
+</p>
 
-[立即体验 AiHubMix →](https://aihubmix.com)
+{/* 行动号召 */}
+<div className="mt-20 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-3xl p-12 text-center">
+  <h2 className="text-3xl font-bold mb-4">准备好体验更稳定、更合规的 AI API 中转服务了吗？</h2>
+  <p className="text-xl mb-8 opacity-90">数千开发者与企业已在生产环境中稳定使用 AiHubMix</p>
+  
+  <a 
+    href="https://aihubmix.com" 
+    className="inline-block bg-white text-emerald-700 hover:bg-gray-100 font-semibold text-xl px-14 py-5 rounded-2xl transition-all"
+  >
+    立即免费体验 AiHubMix
+  </a>
+</div>
+
+</div>
 ```
