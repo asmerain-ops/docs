@@ -40,7 +40,13 @@
             "pages": [
               "essentials/settings",
               "essentials/navigation",
-              "essentials/untitled-page"
+              "essentials/untitled-page",
+              {
+                "group": "zh",
+                "pages": [
+                  "index-mdx"
+                ]
+              }
             ]
           },
           {
