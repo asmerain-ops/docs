@@ -43,12 +43,11 @@
                 "pages": [
                   "essentials/settings",
                   "essentials/navigation",
+                  "zh/aihubmix-introduction.mdx",
                   "essentials/untitled-page",
                   {
-                    "group": "zh",
-                    "pages": [
-                      "index-mdx"
-                    ]
+                    "group": "zh/aihubmix-introduction.mdx",
+                    "pages": []
                   },
                   "essentials/untitled-page-1"
                 ]
