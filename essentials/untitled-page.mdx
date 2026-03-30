@@ -4,185 +4,97 @@ title: "aihubmix-introduction.mdx  "
 
 ```text
 ---
-title: AiHubMix - 企业级 AI 模型 API 中转服务 | OpenAI + Azure 双端点官方代理
-description: AiHubMix 提供专业 AI 模型 API 中转服务，支持 OpenAI、Claude、Gemini、DeepSeek、Qwen 等主流大模型。官方 Azure 代理 + 双端点智能路由，企业级稳定合规首选。3 分钟接入，按量付费。
-mode: custom
+title: "AiHubMix - Enterprise AI Model API Gateway | OpenAI + Azure Dual Endpoint Official Proxy"
+description: "AiHubMix provides professional AI model API gateway service supporting OpenAI, Claude, Gemini, DeepSeek, Qwen and other mainstream LLMs. Official Azure proxy + dual endpoint intelligent routing, enterprise-grade stability and compliance."
+keywords: ["AI API", "OpenAI proxy", "Claude API", "Gemini API", "API gateway", "Azure OpenAI", "LLM API"]
 ---
 
-<div className="max-w-5xl mx-auto px-6 py-16">
+# AiHubMix
 
-{/* Hero Section */}
-<div className="text-center mb-20">
-  <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
-    AiHubMix
-  </h1>
-  <p className="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">
-    企业级 AI 模型 API 中转服务
-  </p>
-  <p className="max-w-3xl mx-auto text-xl text-gray-600 mb-10">
-    基于统一 OpenAI API 标准，一键切换 OpenAI、Claude、Gemini、DeepSeek、Qwen 等主流大模型。<br />
-    官方 Azure 代理 + 双端点智能路由，更稳定、更合规、更省心。
-  </p>
+## Enterprise AI Model API Gateway
 
-  <a 
-    href="https://aihubmix.com" 
-    className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xl px-12 py-5 rounded-2xl transition-all shadow-lg hover:shadow-xl"
-  >
-    立即开始使用 → 3 分钟接入
-  </a>
-</div>
+Unified OpenAI API standard, one-click switching between OpenAI, Claude, Gemini, DeepSeek, Qwen and other mainstream LLMs. Official Azure proxy + dual endpoint intelligent routing — more stable, more compliant, more worry-free.
 
-{/* 核心优势卡片 */}
-<div className="grid md:grid-cols-3 gap-8 mb-20">
-  <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow">
-    <div className="text-4xl mb-4">🛡️</div>
-    <h3 className="text-2xl font-semibold mb-3 text-blue-700">官方合规保障</h3>
-    <p className="text-gray-600">美国 AiHubMix, LLC + 微软 Azure、AWS、GCP 官方授权代理</p>
-  </div>
-  
-  <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow">
-    <div className="text-4xl mb-4">⚡</div>
-    <h3 className="text-2xl font-semibold mb-3 text-blue-700">双端点智能路由</h3>
-    <p className="text-gray-600">OpenAI + Azure 双端点，智能路由 + 自动内容审核</p>
-  </div>
-  
-  <div className="bg-white border border-gray-100 rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow">
-    <div className="text-4xl mb-4">📈</div>
-    <h3 className="text-2xl font-semibold mb-3 text-blue-700">生产级稳定</h3>
-    <p className="text-gray-600">高并发支持，已服务多家知名应用长期稳定运行</p>
-  </div>
-</div>
+<Button href="https://aihubmix.com" variant="primary" size="large">
+  Get Started → 3-Minute Setup
+</Button>
 
-{/* 用户真实评价 */}
-<h2 className="text-4xl font-bold text-center mb-12 text-gray-900">用户真实评价</h2>
+---
 
-<div className="grid md:grid-cols-3 gap-8 mb-20">
-  <div className="bg-white border border-gray-100 rounded-3xl p-8">
-    <div className="flex mb-4">
-      {[...Array(5)].map((_, i) => (
-        <span key={i} className="text-yellow-400 text-xl">★</span>
-      ))}
-    </div>
-    <p className="text-gray-700 italic mb-6">
-      “AiHubMix 的双端点路由非常稳定，我们把 Claude 和 Gemini 都接进来后，响应速度和成功率明显提升。强烈推荐给生产环境使用！”
-    </p>
-    <div>
-      <p className="font-semibold">张工程师</p>
-      <p className="text-sm text-gray-500">某 AI SaaS 公司 CTO</p>
-    </div>
-  </div>
+## Key Advantages
 
-  <div className="bg-white border border-gray-100 rounded-3xl p-8">
-    <div className="flex mb-4">
-      {[...Array(5)].map((_, i) => (
-        <span key={i} className="text-yellow-400 text-xl">★</span>
-      ))}
-    </div>
-    <p className="text-gray-700 italic mb-6">
-      “最满意的是合规性。用了 Azure 自动审核后，账号再也没有莫名其妙被限流。服务很靠谱！”
-    </p>
-    <div>
-      <p className="font-semibold">李经理</p>
-      <p className="text-sm text-gray-500">独立开发者</p>
-    </div>
-  </div>
+### 🛡️ Official Compliance
+U.S. AiHubMix, LLC + Microsoft Azure, AWS, GCP official authorized proxy
 
-  <div className="bg-white border border-gray-100 rounded-3xl p-8">
-    <div className="flex mb-4">
-      {[...Array(5)].map((_, i) => (
-        <span key={i} className="text-yellow-400 text-xl">★</span>
-      ))}
-    </div>
-    <p className="text-gray-700 italic mb-6">
-      “替换地址后，Cursor 和 Lobe-chat 都能完美使用。性价比高，技术支持也及时。”
-    </p>
-    <div>
-      <p className="font-semibold">王同学</p>
-      <p className="text-sm text-gray-500">AI 产品开发者</p>
-    </div>
-  </div>
-</div>
+### ⚡ Dual Endpoint Intelligent Routing
+OpenAI + Azure dual endpoints, intelligent routing with automatic content moderation
 
-{/* 快速上手 */}
-<h2 className="text-3xl font-bold mt-16 mb-10 text-gray-900">快速上手（仅需 3 分钟）</h2>
+### 📈 Production-Ready Stability
+High concurrency support, serving well-known applications with long-term stable operation
 
-<div className="grid md:grid-cols-3 gap-8 mb-20">
-  <div className="bg-white border border-blue-100 rounded-3xl p-8 hover:border-blue-300 transition-colors">
-    <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-3xl font-bold mb-6">1</div>
-    <h4 className="font-semibold text-xl mb-3">充值余额</h4>
-    <p className="text-gray-600">用多少充多少，纯按量计费，无包月压力</p>
-  </div>
+---
 
-  <div className="bg-white border border-blue-100 rounded-3xl p-8 hover:border-blue-300 transition-colors">
-    <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-3xl font-bold mb-6">2</div>
-    <h4 className="font-semibold text-xl mb-3">创建 API Key</h4>
-    <p className="text-gray-600">一键生成并复制你的专属 Key</p>
-  </div>
+## Customer Testimonials
 
-  <div className="bg-white border border-blue-100 rounded-3xl p-8 hover:border-blue-300 transition-colors">
-    <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-3xl font-bold mb-6">3</div>
-    <h4 className="font-semibold text-xl mb-3">替换地址</h4>
-    <p className="text-gray-600">稳定地址：<code>https://aihubmix.com</code></p>
-  </div>
-</div>
+> "AiHubMix's dual endpoint routing is extremely stable. After integrating Claude and Gemini, we saw significant improvements in response speed and success rate. Highly recommended for production use!"
+>
+> **Engineer Zhang** — CTO of an AI SaaS Company
 
-{/* FAQ */}
-<h2 className="text-4xl font-bold text-center mb-12 text-gray-900">常见问题 FAQ</h2>
+> "What I appreciate most is the compliance. With Azure's automatic moderation, my account never got unexpectedly throttled. Very reliable service!"
+>
+> **Manager Li** — Independent Developer
 
-<div className="space-y-6 max-w-3xl mx-auto">
-  <details className="bg-white border border-gray-200 rounded-2xl p-6 group">
-    <summary className="font-semibold text-lg cursor-pointer flex justify-between items-center">
-      AiHubMix 支持哪些模型？
-      <span className="text-blue-600 group-open:rotate-180 transition-transform">↓</span>
-    </summary>
-    <p className="mt-4 text-gray-600">
-      支持 OpenAI 全系列模型，以及 Claude、Gemini、DeepSeek、阿里 Qwen（通义千问）等主流大模型。
-    </p>
-  </details>
+> "Just changed the base URL and everything works perfectly with Cursor and Lobe-chat. Great value and responsive technical support."
+>
+> **Wang** — AI Product Developer
 
-  <details className="bg-white border border-gray-200 rounded-2xl p-6 group">
-    <summary className="font-semibold text-lg cursor-pointer flex justify-between items-center">
-      双端点路由是什么意思？
-      <span className="text-blue-600 group-open:rotate-180 transition-transform">↓</span>
-    </summary>
-    <p className="mt-4 text-gray-600">
-      我们同时连接 OpenAI 官方和微软 Azure OpenAI，智能路由部分请求到 Azure 进行自动内容审核，从而兼顾速度与安全性。
-    </p>
-  </details>
+---
 
-  <details className="bg-white border border-gray-200 rounded-2xl p-6 group">
-    <summary className="font-semibold text-lg cursor-pointer flex justify-between items-center">
-      如何保证账号安全和合规？
-      <span className="text-blue-600 group-open:rotate-180 transition-transform">↓</span>
-    </summary>
-    <p className="mt-4 text-gray-600">
-      使用 Azure 原生内容过滤机制，请避免请求暴力、政治、色情等敏感内容。若频繁触发，我们会主动联系您核实。
-    </p>
-  </details>
+## Quick Start (3 Minutes)
 
-  <details className="bg-white border border-gray-200 rounded-2xl p-6 group">
-    <summary className="font-semibold text-lg cursor-pointer flex justify-between items-center">
-      支持 Cursor、Lobe-chat 等第三方工具吗？
-      <span className="text-blue-600 group-open:rotate-180 transition-transform">↓</span>
-    </summary>
-    <p className="mt-4 text-gray-600">
-      完全支持。只需替换 Base URL，即可在 Cursor、Lobe-chat、ChatGPT Next Web、LangChain 等工具中使用。
-    </p>
-  </details>
-</div>
+<Steps>
+<Step title="Add Credits">
+Pay-as-you-go pricing, no monthly commitment
+</Step>
 
-{/* 最终行动号召 */}
-<div className="mt-24 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-3xl p-14 text-center">
-  <h2 className="text-3xl font-bold mb-4">准备好切换到更稳定、更合规的 AI 中转服务了吗？</h2>
-  <p className="text-xl mb-10 opacity-90">现在就开始，3 分钟即可接入生产环境</p>
-  
-  <a 
-    href="https://aihubmix.com" 
-    className="inline-block bg-white text-blue-700 hover:bg-gray-100 font-semibold text-xl px-14 py-5 rounded-2xl transition-all shadow-md"
-  >
-    立即免费体验 AiHubMix
-  </a>
-</div>
+<Step title="Create API Key">
+One-click generation and copy your API key
+</Step>
 
-</div>
+<Step title="Update Base URL">
+Stable endpoint: `https://aihubmix.com`
+</Step>
+</Steps>
+
+---
+
+## FAQ
+
+<AccordionGroup>
+<Accordion title="Which models does AiHubMix support?">
+Full support for OpenAI models, plus Claude, Gemini, DeepSeek, Alibaba Qwen, and other mainstream LLMs.
+</Accordion>
+
+<Accordion title="What does dual endpoint routing mean?">
+We connect both OpenAI official and Microsoft Azure OpenAI endpoints, intelligently routing some requests through Azure for automatic content moderation, balancing speed with security.
+</Accordion>
+
+<Accordion title="How do you ensure account security and compliance?">
+We use Azure's native content filtering mechanisms. Please avoid sending sensitive content such as violence, politics, or adult material. If violations are detected, we will proactively contact you for review.
+</Accordion>
+
+<Accordion title="Does it work with Cursor, Lobe-chat, and other third-party tools?">
+Absolutely. Simply replace the Base URL to use with Cursor, Lobe-chat, ChatGPT Next Web, LangChain, and other AI tools.
+</Accordion>
+</AccordionGroup>
+
+---
+
+## Ready to Upgrade to a More Stable and Compliant AI Gateway?
+
+Start now — 3-minute setup for production use
+
+<Button href="https://aihubmix.com" variant="primary" size="large">
+  Try AiHubMix for Free
+</Button>
 ```
