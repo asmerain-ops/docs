@@ -45,10 +45,6 @@
                   "essentials/navigation",
                   "zh/aihubmix-introduction.mdx",
                   "essentials/untitled-page",
-                  {
-                    "group": "zh/aihubmix-introduction.mdx",
-                    "pages": []
-                  },
                   "essentials/untitled-page-1"
                 ]
               },
